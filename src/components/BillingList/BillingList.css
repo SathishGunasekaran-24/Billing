@@ -1,0 +1,44 @@
+.BillingDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.BillingDiv button{
+  display: block;
+  padding: 5px;
+  margin: 0 5px;
+  width: 80px;
+  border: 1px solid #AA6817;
+  cursor: pointer;
+  outline: none;
+}
+
+.BillingDiv button:disabled {
+  background-color: #AC9980;
+  border: 1px solid #7E7365;
+  color: #ccc;
+  cursor: default;
+}
+
+.BillingDiv .Less {
+  background-color: #D39952;
+  color: white;
+}
+
+.BillingDiv .More {
+  background-color: #8f5e1e;
+  color: white;
+}
+
+.BillingDiv .Less:hover, .BillingDiv .Less:active{
+    background-color: #DAA972;
+    color: white;
+}
+
+.Label{
+  padding: 10px;
+  font-weight: bold;
+  width: 80px;
+}
